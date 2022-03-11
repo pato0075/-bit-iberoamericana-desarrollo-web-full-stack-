@@ -4,4 +4,9 @@ body{
 h1{
     font-size: 80px;
     align-items: center;
+    color: rgb(218, 32, 32);
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: rgb(192, 189, 189);
+    background-image: url(./imagen/gatito.png);
 }
