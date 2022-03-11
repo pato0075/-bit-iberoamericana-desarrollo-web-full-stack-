@@ -4,9 +4,19 @@ body{
 h1{
     font-size: 80px;
     align-items: center;
+    text-align: center;
+    text-shadow: 2px 4px 3px black;
     color: rgb(218, 32, 32);
     border: 2px black solid;
     border-radius: 8px;
     background-color: rgb(192, 189, 189);
     background-image: url(./imagen/gatito.png);
+}
+p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(218, 32, 32);
+    opacity: 0.8;
+    padding: 10px;
+    margin: 50px;
 }
