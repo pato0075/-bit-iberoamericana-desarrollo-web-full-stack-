@@ -1,9 +1,9 @@
 body{
     background-color: rgb(105, 221, 221);
+    margin: 0px;
 }
 h1{
     font-size: 80px;
-    align-items: center;
     text-align: center;
     text-shadow: 2px 4px 3px black;
     color: rgb(218, 32, 32);
@@ -15,8 +15,76 @@ h1{
 p{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(218, 32, 32);
+    color: chocolate;
+    background-color: beige;
     opacity: 0.8;
     padding: 10px;
     margin: 50px;
+    border-radius: 10px;
 }
+
+.gatito1{
+    border-radius: 20px;
+    
+}
+.gatito2{
+    border-radius: 15px;
+    position: relative;
+    left: 100px;
+    
+}
+.gatico3{
+    border-radius: 15px;
+    position: relative;
+    left: 200px;
+}
+
+#subtitulo{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 25px;
+}
+section img:hover{
+    box-shadow: 0px 2px 0.3 black;
+}
+
+.alimentos{
+    font-size: 30px;
+}
+ .cuidado{
+     font-size: 30px;
+ }
+ .juguetes{
+     font-size: 30px;
+ }
+ .medicina{
+     font-size: 30px;
+ }
+
+ section a:hover{
+      color: aliceblue;
+      text-decoration: none;
+      transition: color 0.3s ease;
+ }
+ footer{
+     background-color: rgb(92, 156, 156);
+     padding: 0px;
+     margin: 0px;
+ }
+
+ input{
+     font-size: 10px;
+     color:black;
+     box-shadow: 0px 3px 0.4rem red;
+ }
+ legend{
+     font-size: 15px;
+ }
+ label{
+     font-size: 15px;
+ }
+ button{
+    font-size: 10px;
+     color:black;
+     box-shadow: 0px 3px 0.4rem red; 
+ }
