@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(199, 190, 178);
+}
+.contacto{
+    font-size: 40px;
+}
+
+.datos{
+    font-size: 30px;
+}
+
+.ayuda{
+    transition: 00.3s;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ayuda:hover{
+    box-shadow: 4px 4px 5px grey;
+}

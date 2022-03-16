@@ -2,6 +2,31 @@ body{
     background-color: rgb(105, 221, 221);
     margin: 0px;
 }
+.navegador{
+    background-color: rgb(29, 27, 27);
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.nav{
+    display: block;
+    font-size: 10px;
+    float: right;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    color: white;
+}
+
+.menu:hover {
+    background-color: rgba(0,0,0,0.3)
+}
 h1{
     font-size: 80px;
     text-align: center;
@@ -24,27 +49,36 @@ p{
 }
 
 .gatito1{
-    border-radius: 20px;  
+    border-radius: 20px; 
+    position: relative;
+    left: 100px; 
+    box-shadow: 0px 3px 8px black;
 }
+
+
 .gatito2{
     border-radius: 15px;
     position: relative;
-    left: 100px;   
-}
+    right: -200px; 
+    box-shadow: 0px 3px 8px black;
+}  
+
 .gatico3{
     border-radius: 15px;
     position: relative;
-    left: 200px;
+    right: -300px;
+    box-shadow: 0px 3px 8px black;
 }
+.gatito1:hover, .gatito2:hover, .gatico3:hover{
+    box-shadow: 5px 5px 8px red;
+  }
 
 #subtitulo{
-    color: rebeccapurple;
+    color: black;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
-section img:hover{
-    box-shadow: 0px 2px 0.3 black;
-}
+
 
 .alimentos{
     font-size: 30px;
@@ -63,36 +97,4 @@ section img:hover{
       color: aliceblue;
       text-decoration: none;
       transition: color 0.3s ease;
- }
- footer{
-     background-color: rgb(92, 156, 156);
-     padding: 0px;
-     margin: 0px;
- }
-
- input{
-     font-size: 10px;
-     color:black;
-     box-shadow: 0px 3px 0.4rem black;
- }
- legend{
-     font-size: 15px;
- }
- label{
-     font-size: 15px;
- }
- 
- .primario{
-     padding: 10px;
-     background-color: royalblue;
-     color: white;
-     border: 0px;
-     box-shadow: 0px 3px 0.4rem black;
- }
- .secundario{
-    padding: 10px;
-     background-color: royalblue;
-     color: white;
-     border: 0px; 
-     box-shadow: 0px 3px 0.4rem black;
  }

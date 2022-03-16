@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(199, 190, 178);
+}
+.contenido{
+    background-color: white;
+    margin: 0px;
+}
+#titulo{
+    font-size: 20px;
+}
+
+.primario{
+    background-color: rgb(196, 195, 195);
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 18px;
+    color: black;
+}
+
+.primario:hover{
+    transition: 00.3s;
+    box-shadow: 4px 4px 5px grey; 
+}
+
+.secundario{
+    background-color: rgb(196, 195, 195);
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 18px; 
+    color: black;
+}
+
+.secundario:hover{
+    transition: 00.3s;
+    box-shadow: 4px 4px 5px grey;
+}
+
+.volver{
+    transition: 00.3s;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.volver:hover{
+    box-shadow: 4px 4px 5px grey;
+}
