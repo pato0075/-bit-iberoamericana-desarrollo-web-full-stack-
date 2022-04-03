@@ -33,6 +33,42 @@ body{
 }
 
 
+.contacto{
+    background-image: linear-gradient(90deg, #0087d4, #505488, #2f3f80, #161569,
+    #5a4894, #a950a1,#ff7cae);
+    background-size: 500%;   
+}
+
+#caja{
+    padding: 60px;
+    margin: 60px;
+
+}
+
+
+
+.nombre{
+    font-family:'Courier New', Courier, monospace;
+    width: 70px;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.pass{
+    font-family: 'Courier New', Courier, monospace;
+    width: 70px; 
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.submit{
+
+    padding: 20px;
+    margin: 5px;
+}
+
 
 
 
