@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 3px 3px rgb(156, 94, 94);
+}
+
+#navbarNav a {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(233, 227, 227);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10%;
+}
+.carousel-inner {
+    max-height: 30rem;
+}
+
+.h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nosotros {
+    background-color:rgb(235, 229, 229);
+}
+
+#img-fluid. .roundedfloat-start {
+    display:inline;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}
