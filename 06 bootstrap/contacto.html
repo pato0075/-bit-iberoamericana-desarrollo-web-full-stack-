@@ -4,26 +4,18 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/06 bootstrap/style.css">
   <title>Contacto</title>
+  <script type="text/javascrip" src="/06 bootstrap/main.js"></script>
 </head>
 <body class="contacto">
   <div id="caja">
-    <form>
-      <div class="nombre">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre"> 
-      </div>
-      <br>
-      <br>
-      <div class="pass">
-        <label for="password">Password</label>
-        <input type="password" id="password"> 
-      </div>
-      <div class="submit"> 
-      <input type="submit" onclick= "return enviarFormulario()"; value="Enviar">
-      </div>
+    <form action="" id="form">
+      <input type="text" name="name" id="name" placeholder="Nombre"><br><br>
+      <input type="text" name="password" id="password" placeholder="Contraseña"><br><br>
+      <button type="button" id="onclick" onclick="getData()">Enviar</button>
     </form>
   </div>
     <div id="error"></div>
+    
 
 
 

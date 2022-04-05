@@ -55,6 +55,7 @@ body{
     font-size: 20px;
 }
 
+
 .pass{
     font-family: 'Courier New', Courier, monospace;
     width: 70px; 
@@ -67,6 +68,16 @@ body{
 
     padding: 20px;
     margin: 5px;
+}
+
+#onclick {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 30%;
+    border-style: solid;
+    border-color: white;
+    background-color: #547283;
+    
 }
 
 

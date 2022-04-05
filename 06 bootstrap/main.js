@@ -1,19 +1,18 @@
-var nombre = document.getElementById("nombre");
-var password = document.getElementById("password");    
-var error = document.getElementById("error");
- error.style.color = "red";
+var getData = function (){
+    var name = document.getElementById("name").value;
+    var password = document.getElementById("password").value;
+       if (name=="") {
+           document.getElementById("name").focus();
+       } else {
+           if (password == "") {
+            document.getElementById("password").focus();
+       } else
+            console.log(name+""+password);
+            document.getElementById("name").value ="";
+            document.getElementById("password").value ="";
+            document.getElementById("password").focus();
+       }
+       
 
-function enviarFormulario(){
-    console.log("enviando formulario...");
-        var mensajesError = [];
-    if(nombre.value === null || nombre.value === "" ){
-        mensajesError.push ("Ingresa tu nombre");
-    }
-    if(password.value === null || password.value === "" ){
-        mensajesError.push ("Ingresa tu password");
-    }
-
-    error.innerHTML = mensajesError.join(",");
     
-    return false;
 }
