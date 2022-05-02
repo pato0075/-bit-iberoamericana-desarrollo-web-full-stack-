@@ -23,10 +23,26 @@ body{
     margin-right: auto;
     margin-top: 50px;
     border-radius: 5%;
+    animation-name:scale ;
+    animation-duration: 5s;
 }
 
-#note:hover{
-    box-shadow: 5px 5px var(--grey);
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    15%{
+        transform: scale(1.6);
+    }
+    30%{
+        transform: scale(1);
+    }
+    45%{
+        transform: scale(.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 h1{
