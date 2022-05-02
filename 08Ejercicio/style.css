@@ -1,0 +1,102 @@
+:root{
+    --green: #57bd57;
+    --green2: #808000;
+    --green3: #AFB42B;
+    --green4: #003300;
+    --white: #E5E7E9;
+    --grey: #424242;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--green);
+}
+
+#note{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+
+#note:hover{
+    box-shadow: 5px 5px var(--grey);
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    color: var(--white);
+    text-shadow: 3px 3px var(--green4);
+}
+form{
+    width: 400px;
+    margin: 45px auto;
+    text-align: center;
+}
+
+form input[type="text"]{
+    color: var(--white);
+    border-style: none;
+    font-size: 1.5em;
+    background-color: var(--green);
+}
+
+form input[type="text"]::placeholder{
+    color: var(--grey);
+}
+
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    color: var(--green);
+}
+form input[type="submit"]:hover{
+    background-color: var(--green4);
+    color: var(--white); 
+    cursor: pointer;
+}
+.list-container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.task-container{
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius:4px;
+    font-size: 1.1em;
+    font-weight: 500px;
+    color: var(--grey);    
+}
+.closeBtn{
+    width: 15px;
+    height: 15px;
+      
+}
+.closeBtn:hover{
+    cursor: pointer;
+}
+
+#stats{
+    margin-top: 25px;
+    font-size: 1.3em;
+    color: var(--green4);
+    text-align: center;
+    }
